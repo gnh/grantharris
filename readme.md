@@ -28,4 +28,4 @@ $ grunt copy
 Grunt will start a local server on port 3000 (http://localhost:3000) and preprocess SASS files
 
 You may need to edit the global.scss file for Grunt to properly compile the assets# grantharris
-# grantharris
+
