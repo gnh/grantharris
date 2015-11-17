@@ -1,4 +1,4 @@
-#Grant Harris Portfolio - 2014-v2.0
+#Grant Harris person website
 #### by Grant Harris
 
 ##Tech
