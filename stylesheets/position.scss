@@ -1,0 +1,47 @@
+// position
+
+.position {
+	@include pm-clear;
+	padding: 10rem 0;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+
+	h2 {
+		color: $primary;
+	}
+
+	.date {
+		font-weight: 500;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $shade-light;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		color: $copy;
+		margin-bottom: 2rem;
+
+		a {
+			@include transition(.15s);
+			font-weight: 700;
+			color: $copy;
+			text-decoration: none;
+			padding-bottom: 3px;
+			border-bottom: 2px solid rgba(129,130,152,.3);
+
+			&:hover {
+				border-color: $blue;
+				padding-bottom: 6px;
+			}
+		}
+	}
+
+	span {
+		font-weight: 700;
+	}
+
+	&:last-of-type {
+		border: none;
+	}
+}

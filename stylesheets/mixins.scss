@@ -1,0 +1,27 @@
+// Padding / Margin clear
+
+@mixin pm-clear {
+  margin: 0;
+  padding: 0;
+}
+
+
+// Transitions
+
+@mixin transition($transition) {
+	-webkit-transition: all $transition ease-in-out;
+	-moz-transition: all $transition ease-in-out;
+	-ms-transition: all $transition ease-in-out;
+	-o-transition: all $transition ease-in-out;
+	transition: all $transition ease-in-out;
+}
+
+
+// Flexbox
+
+@mixin such-flex {
+  display: flex;
+  align-items: bottom;
+  justify-content: bottom;
+}
+
