@@ -1,4 +1,4 @@
-#Grant Harris person website
+#Grant Harris personal website
 #### by Grant Harris
 
 ##Tech
