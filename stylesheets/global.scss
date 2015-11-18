@@ -67,6 +67,14 @@ a {
 	}
 }
 
+.disabled {
+	opacity: .5 !important;
+
+	&:hover {
+		background-color: $footer;
+	}
+}
+
 
 
 

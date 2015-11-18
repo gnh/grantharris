@@ -16,3 +16,14 @@ header {
 		}
 	}
 }
+
+.logo {
+	@include transition(.15s);
+	@include pm-clear;
+	position: fixed;
+	top: 2rem;
+	left: 2rem;
+	fill: darken($primary, 7%);
+	width: 5rem;
+	height: 5rem;
+}
