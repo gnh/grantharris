@@ -10,7 +10,7 @@ header {
 	h1 {
 		color: rgba(255,255,255,0.7);
 		font-weight: 100;
-		margin-bottom: 4rem;
+		// margin-bottom: 4rem;
 
 		span {
 			font-weight: 400;
@@ -36,4 +36,10 @@ header {
 
 #clear {
 	float: left;
+}
+
+#social {
+	text-align: center;
+	background-color: darken($primary, 4.4%);
+	padding: 4rem 0;
 }
