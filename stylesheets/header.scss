@@ -23,7 +23,11 @@ header {
 	position: fixed;
 	top: 2rem;
 	left: 2rem;
-	fill: darken($primary, 7%);
+	fill: $white;
 	width: 5rem;
 	height: 5rem;
+	background-color: $blue;
+	padding: 1rem;
+	border-radius: 4px;
+	border: 1px solid darken($blue, 5%);
 }
