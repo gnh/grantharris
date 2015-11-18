@@ -3,6 +3,7 @@
 header {
 	@include pm-clear;
 	padding: 10rem 0;
+	background-color: $primary;
 	background-image: linear-gradient(45deg, #34363F 0%, #262830 100%);
 	text-align: center;
 
