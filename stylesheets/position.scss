@@ -18,6 +18,10 @@
 		margin-bottom: 2rem;
 	}
 
+	a {
+		@include button-sm;
+	}
+
 	p {
 		color: $copy;
 		margin-bottom: 2rem;
