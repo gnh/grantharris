@@ -9,6 +9,7 @@ header {
 	h1 {
 		color: rgba(255,255,255,0.7);
 		font-weight: 100;
+		margin-bottom: 4rem;
 
 		span {
 			font-weight: 400;
@@ -30,4 +31,8 @@ header {
 	padding: 1rem;
 	border-radius: 4px;
 	border: 1px solid darken($blue, 5%);
+}
+
+#clear {
+	float: left;
 }
