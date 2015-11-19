@@ -1,8 +1,10 @@
 // footer
 
 .footer__content {
-	padding: 3rem 0;
-	border-top: 1px solid $light;
+	padding: 4rem 4rem 4rem 6rem;
+	margin-left: -6rem;
+	// border-top: 1px solid $light;
+	background-color: $footer;
 
 	p {
 		@include pm-clear;
