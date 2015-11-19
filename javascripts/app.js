@@ -2,7 +2,7 @@ $(window).scroll(function(){
 
   var scrollTop = $(window).scrollTop();
 
-  if(scrollTop >= 403){
+  if(scrollTop >= 345){
     $('#logo').css('width', '2.5rem').css('height', '2.5rem').css('fill', '#74A7FF');
 
     $('#logo').mouseenter(function(){

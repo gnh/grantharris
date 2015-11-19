@@ -40,6 +40,7 @@ header {
 
 #social {
 	text-align: center;
-	background-color: darken($primary, 4.4%);
+	// background-color: darken($primary, 4.4%);
+	background-color: $footer;
 	padding: 4rem 0;
 }

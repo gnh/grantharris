@@ -49,22 +49,24 @@ h5 {
 }
 
 a {
-	// @include transition(.1s);
+	@include pm-clear;
+	@include transition(.1s);
 	text-decoration: none;
-	color: rgba(255,255,255,0.3);
+	color: $primary;
 	font-weight: 500;
 	font-size: 1.1rem;
 	letter-spacing: 2px;
-	line-height: 1.8;
 	margin-right: 2rem;
 	text-transform: uppercase;
+	background-color: darken($footer, 5%);
 
 	&:last-of-type {
 		margin-right: 0;
 	}
 
 	&:hover {
-		background-color: $blue;
+		color: $primary;
+		background-color: lighten($blue, 16%);
 	}
 }
 
@@ -82,11 +84,13 @@ a {
 // layout
 
 .kanye {
+	@include pm-clear;
 	max-width: 50rem;
 	margin: 0 auto;
 }
 
 .header__kanye {
+	@include pm-clear;
 	max-width: 60rem;
 	margin: 0 auto;
 }
