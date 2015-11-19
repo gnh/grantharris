@@ -5,7 +5,7 @@ header {
 	padding: 10rem 0;
 	background-color: $primary;
 	background-image: linear-gradient(45deg, #34363F 0%, #262830 100%);
-	text-align: center;
+	// text-align: center;
 
 	h1 {
 		color: rgba(255,255,255,0.7);
@@ -39,7 +39,7 @@ header {
 }
 
 #social {
-	text-align: center;
+	// text-align: center;
 	// background-color: darken($primary, 4.4%);
 	background-color: $footer;
 	padding: 4rem 0;
