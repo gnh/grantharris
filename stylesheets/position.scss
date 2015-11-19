@@ -1,9 +1,30 @@
 // position
 
 .experience__position {
+	@include transition(.1s);
 	@include pm-clear;
-	padding: 10rem 0;
-	border-bottom: 1px solid #e1e1e1;
+	// padding: 10rem 0;
+	padding: 5rem 0;
+	// border-bottom: 1px solid #e1e1e1;
+
+	&:first-of-type {
+		margin-top: 5rem;
+	}
+
+	&:last-of-type {
+		margin-bottom: 5rem;
+	}
+
+	&:hover {
+
+		a {
+			@include button-sm-blue;
+		}
+
+		a.disabled {
+			@include button-sm;
+		}
+	}
 
 	h2 {
 		color: $primary;
@@ -51,9 +72,5 @@
 
 	span {
 		font-weight: 700;
-	}
-
-	&:last-of-type {
-		border: none;
 	}
 }
