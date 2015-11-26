@@ -3,29 +3,19 @@
 
 ##Tech
 
-I am using some open source projects such as:
+Make sure you have npm, Bower and Middleman installed
 
-* [Grunt] - Javascript task runner
-* [H5BP] - web's most popular front-end template
-* [Modernizr] - feature detection library for HTML5/CSS3
-* [jQuery] - fast, small, and feature-rich Javascript library 
+##Starting Middleman
 
-##Installation
-
-```sh
-$ cd /path/to/root
-$ grunt
+```
+$ middleman
 ```
 
-Also, to use grunt-contrib-copy:
+Middleman will start a local server on port 4567 (http://localhost:4567)
 
-```sh
-$ cd /path/to/root
-$ grunt copy
+##Build
+Build the website using the command below and copy the contents of the build folder
+
 ```
-
-##Grunt
-Grunt will start a local server on port 3000 (http://localhost:3000) and preprocess SASS files
-
-You may need to edit the global.scss file for Grunt to properly compile the assets# grantharris
-
+$ middleman build
+```
