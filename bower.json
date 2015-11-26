@@ -1,0 +1,17 @@
+{
+  "name": "Grant harris",
+  "version": "1.0.0",
+  "authors": [
+    "Grant Harris"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
