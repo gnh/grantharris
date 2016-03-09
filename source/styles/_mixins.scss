@@ -1,3 +1,32 @@
+// Media query mixin
+
+@mixin mq($size) {
+  @if $size == x-large {
+    @media (min-width: $x-large) { @content ; }
+  }
+
+  @if $size == large {
+    @media (min-width: $large) { @content ; }
+  }
+
+  @if $size == medium {
+    @media (min-width: $medium) { @content ; }
+  }
+
+  @if $size == medium-down {
+    @media (max-width: $medium - 1) { @content ; }
+  }
+
+  @if $size == small {
+    @media (min-width: $small) { @content ; }
+  }
+
+  @if $size == small-down {
+    @media (max-width: $small - 1) { @content ; }
+  }
+}
+
+
 // Padding / Margin clear
 
 @mixin pm-clear {
